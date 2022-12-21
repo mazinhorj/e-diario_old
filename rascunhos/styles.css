@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #dadada;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#meses, #frequencia {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+#meses table, #frequencia table,
+th,
+tr,
+td {
+  text-align: center;
+  border: 1px solid black;
+  padding: .4rem;
+}
+
+
+table {
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.diasLetivos {
+  text-align: right;
+}

@@ -1,0 +1,16 @@
+button {
+  width: 120px;
+  margin-bottom: 2rem;
+  padding: .4rem .8rem ;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: .4s;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+}
