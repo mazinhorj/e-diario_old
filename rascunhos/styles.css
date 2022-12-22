@@ -4,13 +4,19 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #dadada;
   text-align: center;
+  box-sizing: border-box;
 }
 
 h1 {
   text-align: center;
 }
 
-#meses, #frequencia {
+#master {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#meses, #frequencia, #gestao {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
@@ -20,13 +26,23 @@ h1 {
   gap: 1rem;
 }
 
-#meses table, #frequencia table,
+#meses table, #frequencia table, #gestao table,
 th,
 tr,
 td {
   text-align: center;
   border: 1px solid black;
   padding: .4rem;
+  white-space: nowrap;
+}
+
+#meses tbody > tr {
+  opacity: .8;
+  cursor: pointer;
+}
+
+#meses tbody > tr:hover {
+  opacity: 1;
 }
 
 
@@ -37,4 +53,15 @@ table {
 
 .diasLetivos {
   text-align: right;
+}
+
+.conteudo {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#btns {
+  margin: 1rem;
 }

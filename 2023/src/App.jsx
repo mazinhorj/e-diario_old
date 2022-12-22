@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <h1>E-Diário 2023</h1>
+        <h1>e-Diário 2023</h1>
         <Logo />
         <ButtonPadrao id={"login"} text={"Login"} action={(e) => console.log("testou")}/>
       </div>
