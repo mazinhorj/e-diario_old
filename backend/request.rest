@@ -1,0 +1,394 @@
+GET http://localhost:3000/api/alunos/turma
+
+###
+
+POST http://localhost:3000/api/alunos
+Content-Type: application/json
+
+{
+  "ref_cod_aluno": "0001",
+  "aluno": "Abc de F",
+  "nascimento": "dia do niver",
+  "data_cadastro": "hoje",
+  "data_matricula": "hoje também",
+  "serie": "branca",
+  "resultado": "positivo",
+  "turma": "do barulho",
+  "fantasia": "de oncinha"
+}
+
+###
+
+
+PUT http://localhost:3000/api/turmas/63b861e50f1aed782e114356
+Content-Type: application/json
+
+{
+  "escola": "NSGE 2",
+  "professor": "Aloprado 2",
+  "disciplina": "Besteirol 101",
+  "serie": "5a série",
+  "turma": "598",
+  "alunos": [
+    {
+      "_id": "63b83d4cd166d8e4831796a8",
+      "ref_cod_aluno": "230380",
+      "aluno": "ANA SOPHIA AGUIAR DA SILVA",
+      "nascimento": "06/03/2014",
+      "data_cadastro": "2022-02-16 14:21:58.322061",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796a9",
+      "ref_cod_aluno": "266414",
+      "aluno": "BENICIO FERREIRA MENDES LIMA",
+      "nascimento": "02/12/2013",
+      "data_cadastro": "2022-02-18 17:49:27.181974",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "TRANSF",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796aa",
+      "ref_cod_aluno": "242237",
+      "aluno": "CAIO EDUARDO DA SILVA DUTRA",
+      "nascimento": "07/10/2013",
+      "data_cadastro": "2022-02-16 14:21:58.384617",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796ab",
+      "ref_cod_aluno": "245431",
+      "aluno": "CARLOS MIGUEL DA SILVA DE BRITO",
+      "nascimento": "02/08/2013",
+      "data_cadastro": "2022-02-16 14:21:58.437166",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796ac",
+      "ref_cod_aluno": "233966",
+      "aluno": "DAVI MIGUEL MATHEUS FIRMINO",
+      "nascimento": "25/03/2013",
+      "data_cadastro": "2022-02-16 14:21:58.502285",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796ad",
+      "ref_cod_aluno": "230794",
+      "aluno": "DAVI RYQUELME MACIEL DA SILVA",
+      "nascimento": "30/11/2012",
+      "data_cadastro": "2022-02-18 18:00:35.935389",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796ae",
+      "ref_cod_aluno": "274693",
+      "aluno": "EMANUELLY DOS SANTOS FARIAS",
+      "nascimento": "19/12/2013",
+      "data_cadastro": "2022-02-21 12:35:21.812582",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796af",
+      "ref_cod_aluno": "231439",
+      "aluno": "GABRIEL RONALD MARINS DOS SANTOS",
+      "nascimento": "04/03/2014",
+      "data_cadastro": "2022-02-16 14:21:58.618649",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "TRANSF",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796b0",
+      "ref_cod_aluno": "212938",
+      "aluno": "GABRYEL VINICIUS DA SILVA TEODORO CORRêA",
+      "nascimento": "29/09/2013",
+      "data_cadastro": "2022-03-30 12:51:40.597998",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796b1",
+      "ref_cod_aluno": "212944",
+      "aluno": "ISABELLA SOFIA TEIXEIRA OLIVEIRA DE SOUZA ",
+      "nascimento": "25/07/2013",
+      "data_cadastro": "2022-07-29 10:51:40.865416",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796b2",
+      "ref_cod_aluno": "212950",
+      "aluno": "JESSICA VITORIA EVANGELISTA LIMA",
+      "nascimento": "08/11/2013",
+      "data_cadastro": "2022-02-16 14:21:58.682656",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796b3",
+      "ref_cod_aluno": "252525",
+      "aluno": "KAMILLY VITóRIA BRAGA BIOCIE",
+      "nascimento": "17/03/2014",
+      "data_cadastro": "2022-02-16 14:21:58.754135",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796b4",
+      "ref_cod_aluno": "252526",
+      "aluno": "KAíQUE DA SILVA AQUINO",
+      "nascimento": "27/09/2013",
+      "data_cadastro": "2022-02-16 14:21:58.816276",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796b5",
+      "ref_cod_aluno": "274672",
+      "aluno": "LARA SILVA DO CARMO",
+      "nascimento": "16/04/2013",
+      "data_cadastro": "2022-02-16 14:21:58.874043",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796b6",
+      "ref_cod_aluno": "271175",
+      "aluno": "MANUELLA DA SILVA BONFIM",
+      "nascimento": "30/11/2013",
+      "data_cadastro": "2022-02-16 14:21:58.934437",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796b7",
+      "ref_cod_aluno": "194054",
+      "aluno": "MARCELO MATHEUS FOURNIER JUNIOR\t\t",
+      "nascimento": "20/05/2012",
+      "data_cadastro": "2022-02-16 14:21:59.027343",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796b8",
+      "ref_cod_aluno": "194130",
+      "aluno": "MARCOS VINICIUS DA SILVA PEQUENO BARBOSA\t\t",
+      "nascimento": "13/03/2013",
+      "data_cadastro": "2022-02-18 18:01:05.536127",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796b9",
+      "ref_cod_aluno": "195887",
+      "aluno": "MIGUEL SANTOS DE SANTANA",
+      "nascimento": "28/12/2012",
+      "data_cadastro": "2022-02-16 14:21:59.108038",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796ba",
+      "ref_cod_aluno": "212980",
+      "aluno": "MIRELLA DE SOUZA MOTA           (GEMELAR)",
+      "nascimento": "18/03/2014",
+      "data_cadastro": "2022-02-16 14:21:59.198871",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796bb",
+      "ref_cod_aluno": "254456",
+      "aluno": "PEDRO HENRIQUE CANDEIA MEDEIROS",
+      "nascimento": "18/01/2013",
+      "data_cadastro": "2022-02-16 14:21:59.28492",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796bc",
+      "ref_cod_aluno": "266418",
+      "aluno": "PIETRA ALMENARA RODRIGUES DE ARAUJO GOES",
+      "nascimento": "21/12/2013",
+      "data_cadastro": "2022-02-16 14:21:59.354446",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796bd",
+      "ref_cod_aluno": "190691",
+      "aluno": "PIETRO FREITAS REAL",
+      "nascimento": "27/11/2012",
+      "data_cadastro": "2022-02-16 14:21:59.420642",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "TRANSF",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796be",
+      "ref_cod_aluno": "194141",
+      "aluno": "PYETRO PHELIPPE OLIVEIRA ALVES\t\t",
+      "nascimento": "09/10/2012",
+      "data_cadastro": "2022-02-16 14:21:59.484466",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796bf",
+      "ref_cod_aluno": "212982",
+      "aluno": "REYLLIE DE SOUZA MOTA   ( GEMELAR)",
+      "nascimento": "18/03/2014",
+      "data_cadastro": "2022-02-16 14:21:59.529082",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796c0",
+      "ref_cod_aluno": "194145",
+      "aluno": "RODRIGO DE OLIVEIRA MARQUES DA SILVA",
+      "nascimento": "05/07/2012",
+      "data_cadastro": "2022-02-16 14:21:59.601245",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "TRANSF",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796c1",
+      "ref_cod_aluno": "252524",
+      "aluno": "RYAN LUCAS PEQUENO ARAUJO",
+      "nascimento": "29/01/2013",
+      "data_cadastro": "2022-02-16 14:21:59.659469",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "TRANSF",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796c2",
+      "ref_cod_aluno": "217798",
+      "aluno": "STACY RODRIGUES DE ARAUJO ",
+      "nascimento": "09/05/2013",
+      "data_cadastro": "2022-02-16 14:21:59.732145",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796c3",
+      "ref_cod_aluno": "194150",
+      "aluno": "YAGO BARBOSA DOS SANTOS",
+      "nascimento": "18/02/2013",
+      "data_cadastro": "2022-02-16 14:21:59.809597",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "TRANSF",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796c4",
+      "ref_cod_aluno": "252523",
+      "aluno": "YURICK DE SOUZA CRUZ",
+      "nascimento": "23/09/2012",
+      "data_cadastro": "2022-02-16 14:21:59.978059",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    },
+    {
+      "_id": "63b83d4cd166d8e4831796c5",
+      "ref_cod_aluno": "266487",
+      "aluno": "YURI DA COSTA DUARTE",
+      "nascimento": "15/01/2014",
+      "data_cadastro": "2022-02-16 14:21:59.919816",
+      "data_matricula": "2022-01-03 00:00:00",
+      "serie": "3º Ano de Escolaridade",
+      "resultado": "MATR",
+      "turma": "303",
+      "fantasia": "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"
+    }
+  ]
+}
