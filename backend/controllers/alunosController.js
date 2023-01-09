@@ -27,8 +27,8 @@ const alunoController = {
   getMany: async (req, res) => {
     try {
       // id => URL === GET
-      const turma = "303";
-      const escola = "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil";
+      const turma = "303"; // variavel da turma
+      const escola = "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"; // variavel da escola
       const aluno = await AlunoModel.find({turma: turma, fantasia: escola});
       if (!aluno) {
         res.status(404).json({ msg: "Não achei o que você procura" });
@@ -64,7 +64,6 @@ const alunoController = {
     };
   },
 
-  
 
 };
 
