@@ -1,20 +1,50 @@
-GET http://localhost:3000/api/alunos/turma
+GET http://localhost:3000/api/alunos/turma/
 
 ###
+
+
+GET http://localhost:3000/api/professores/63bee4989649db02f35e7f2e
+
+###
+
+
+GET http://localhost:3000/api/professores/turmas
+
+###
+
+
 
 POST http://localhost:3000/api/alunos
 Content-Type: application/json
 
 {
-  "ref_cod_aluno": "0001",
-  "aluno": "Abc de F",
+  "ref_cod_aluno": "0006",
+  "aluno": "Abc de F G H",
   "nascimento": "dia do niver",
   "data_cadastro": "hoje",
   "data_matricula": "hoje também",
   "serie": "branca",
   "resultado": "positivo",
   "turma": "do barulho",
-  "fantasia": "de oncinha"
+  "fantasia": "de bicho"
+}
+
+###
+POST http://localhost:3000/api/professores
+Content-Type: application/json
+
+{
+  "matricula": "0001",
+  "ref_cod_escola": "00000000",
+  "nm_turma": "101",
+  "periodo": "1",
+  "fantasia": "NSGE",
+  "nome": "José de Teste da Silva",
+  "hora_inicial": "07:30:00",
+  "hora_final": "12:30:00",
+  "disciplina": "Programação",
+  "funcao": "DEV",
+  "turno": "1º turno"
 }
 
 ###

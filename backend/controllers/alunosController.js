@@ -27,8 +27,8 @@ const alunoController = {
   getMany: async (req, res) => {
     try {
       // id => URL === GET
-      const turma = "303"; // variavel da turma
-      const escola = "CIEP Municipalizado 015 - Henrique de Souza Filho Henfil"; // variavel da escola
+      const turma = "do barulho"; // variavel da turma
+      const escola = "de bicho"; // variavel da escola
       const aluno = await AlunoModel.find({turma: turma, fantasia: escola});
       if (!aluno) {
         res.status(404).json({ msg: "Não achei o que você procura" });
@@ -40,6 +40,7 @@ const alunoController = {
     };
   },
 
+  // APENAS RESGATA O ID SOLICITADO
   get: async (req, res) => {
     try {
       // id => URL === GET
@@ -55,6 +56,7 @@ const alunoController = {
     };
   },
 
+  // TRAZ TODOS OS ALUNOS DO BANCO! - FAZER FILTRAGENS!!!
   getAll: async (req, res) => {
     try {
       const alunos = await AlunoModel.find();
