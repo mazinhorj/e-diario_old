@@ -26,7 +26,7 @@ const professorController = {
     };
   },
 
-  // PROFESSORES DA TURMA E DETERMINADA ESCOLA
+  // PROFESSORES DE UMA DETERMINADA TURMA DE DETERMINADA ESCOLA
   getMany: async (req, res) => {
     try {
       // id => URL === GET
