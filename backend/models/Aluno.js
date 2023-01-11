@@ -22,7 +22,7 @@ const alunoSchema = new Schema({
     type: String,
     required: true
   },
-  // entrada no escola
+  // entrada na escola
   data_matricula: {
     type: String,
     required: true
