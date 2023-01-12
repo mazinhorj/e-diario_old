@@ -2,7 +2,7 @@ const express = require('express');
 
 const router = express.Router();
 
-const turmaController = require('../controllers/turmasController');
+const turmaController = require('../controllers/turmasController'); 
 
 
 router.route("/turmas").post((req, res) => turmaController.create(req, res));

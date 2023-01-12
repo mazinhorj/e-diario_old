@@ -6,7 +6,7 @@ const { alunoSchema } = require('./Aluno');
 const { professorSchema } = require('./Professor');
 
 const turmaSchema = new Schema({
-  // precisa ser igual aluno/professor
+  // precisa ser igual aluno/professor 
   escola: {
     type: String,
     required: true

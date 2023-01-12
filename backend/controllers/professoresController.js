@@ -31,7 +31,7 @@ const professorController = {
     try {
       // id => URL === GET
       const nm_turma = "401"; // variavel da turma
-      const escola = "Creche e Escola Municipal Bairro Tabuleiro"; // variavel da escola
+      const escola = "Creche e Escola Municipal Bairro Tabuleiro"; // variavel da escola 
       const professor = await ProfessorModel.find({ nm_turma: nm_turma, fantasia: escola });
       if (!professor) {
         res.status(404).json({ msg: "Não achei o professor que você procura" });

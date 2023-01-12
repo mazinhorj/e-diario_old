@@ -11,7 +11,7 @@ const turmaController = {
         serie: req.body.serie,
         turma: req.body.turma,
         alunos: req.body.alunos,
-      };
+      }; 
 
       const response = await TurmaModel.create(turma);
       res.status(201).json({ response, msg: "Parabéns! Turma cadastrada com sucesso." });

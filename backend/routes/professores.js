@@ -5,8 +5,7 @@ const router = express.Router();
 const professorController = require('../controllers/professoresController');
 
 
-router.route("/professores").post((req, res) => professorController.create(req, res));
-
+router.route("/professores").post((req, res) => professorController.create(req, res)); 
 
 router.route("/professores").get((req, res) => professorController.getAll(req, res));
 
