@@ -13,7 +13,7 @@ router.route("/alunos/turma").get((req, res) => alunoController.getMany(req, res
 
 router.route("/alunos/:id").delete((req, res) => alunoController.delete(req, res));
 
-router.route("/alunos/:id").put((req, res) => alunoController.update(req, res));
+router.route("/alunos/:id").put((req, res) => alunoController.update(req, res)); 
 
 
 module.exports = router;

@@ -2,6 +2,11 @@ GET http://localhost:3000/api/alunos/turma/
 
 ###
 
+DELETE http://localhost:3000/api/alunos/63bec632a9d64b0f3bea6058
+
+
+###
+
 
 GET http://localhost:3000/api/professores/63bee4989649db02f35e7f2e
 
@@ -18,8 +23,8 @@ POST http://localhost:3000/api/alunos
 Content-Type: application/json
 
 {
-  "ref_cod_aluno": "0006",
-  "aluno": "Abc de F G H",
+  "ref_cod_aluno": "0007",
+  "aluno": "Aluno Teste da Silva",
   "nascimento": "dia do niver",
   "data_cadastro": "hoje",
   "data_matricula": "hoje também",
@@ -30,6 +35,24 @@ Content-Type: application/json
 }
 
 ###
+
+PUT http://localhost:3000/api/alunos/63c58b37dc858e3d8a644867
+Content-Type: application/json
+
+{
+  "ref_cod_aluno": "0007",
+  "aluno": "Etset da Silva",
+  "nascimento": "01/01/2018",
+  "data_cadastro": "hoje",
+  "data_matricula": "hoje também",
+  "serie": "branca",
+  "resultado": "positivo",
+  "turma": "do barulho",
+  "fantasia": "de bicho"
+}
+
+###
+
 POST http://localhost:3000/api/professores
 Content-Type: application/json
 
