@@ -7,12 +7,12 @@ const { professorSchema } = require('./Professor');
 
 const turmaSchema = new Schema({
   // precisa ser igual aluno/professor 
-  escola: {
+  escola: { // vai vir do doc do prof & aluno
     type: String,
     required: true
   },
   // precisa ser igual aluno/professor
-  turma: {
+  turma: { // vai vir do doc do prof & aluno
     type: String,
     required: true
   },
@@ -21,12 +21,12 @@ const turmaSchema = new Schema({
     required: true
   },
   // vem do prof
-  disciplina: {
+  disciplina: { // vai vir do doc do prof
     type: String,
     required: true
   },
   // vem do aluno
-  serie: {
+  serie: { // vai vir do doc do aluno
     type: String,
     required: true
   },

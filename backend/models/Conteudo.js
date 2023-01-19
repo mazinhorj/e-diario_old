@@ -2,25 +2,32 @@ const mongoose = require('mongoose');
 
 const { Schema } = mongoose;
 
+const { professorSchema } = require('./Professor');
+const { calendarioSchema } = require('./Calendario');
+
 const conteudoSchema = new Schema({
-  // nome da escola
+  // nome da escola - doc prof?
   escola: {
     type: String,
     required: true
   },
-  // turma
+  // turma - doc prof?
   turma: {
     type: String,
     required: true
   },
-  // nome do professor
+  // nome do professor - doc prof!
   professor: {
+    type: [professorSchema],
+    required: true
+  },
+  // disciplina - doc prof?
+  disciplina: {
     type: String,
     required: true
   },
-  // disciplina
-  disciplina: {
-    type: String,
+  dia: {
+    type: [calendarioSchema],
     required: true
   },
   // conteudo

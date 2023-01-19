@@ -23,5 +23,17 @@ const professoresRouter = require('./professores');
 router.use("/", professoresRouter);
 // --------------------------------------------------------------------
 
+// relatorioAluno router
+const relatorioAlunoRouter = require('./relatorioAlunos');
+
+router.use("/", relatorioAlunoRouter);
+// --------------------------------------------------------------------
+
+// calendario router
+const calendarioRouter = require('./calendario');
+
+router.use("/", calendarioRouter);
+// --------------------------------------------------------------------
+
 
 module.exports = router;

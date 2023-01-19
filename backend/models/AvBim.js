@@ -3,6 +3,10 @@ const mongoose = require('mongoose');
 const { Schema } = mongoose;
 
 const avBimSchema = new Schema({
+  bimestre: {
+    type: Number,
+    required: true
+  },
   av1: {
     type: String, // mudar para float
     required: true
