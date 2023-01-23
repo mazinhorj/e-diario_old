@@ -30,14 +30,14 @@ const professorController = {
   getMany: async (req, res) => {
     try {
       // id => URL === GET
-      const nm_turma = "401"; // variavel da turma
-      const escola = "Creche e Escola Municipal Bairro Tabuleiro"; // variavel da escola 
+      const nm_turma = "403"; // variavel da turma
+      const escola = "E M Visconde de Itaboraí"; // variavel da escola 
       const professor = await ProfessorModel.find({ nm_turma: nm_turma, fantasia: escola });
       if (!professor) {
         res.status(404).json({ msg: "Não achei o professor que você procura" });
         return;
       };
-      res.json({ professor, msg: "Achei a turma/professor que vc queria!" });
+      res.json({ professor });
     } catch (error) {
       console.log(`Xiiii... Tem certeza (PROF-TURMA): ${error}`)
     };
@@ -47,13 +47,13 @@ const professorController = {
   getOne: async (req, res) => {
     try {
       // id => URL === GET
-      const id = req.params.id;
+      const id = "63bee49a9649db02f35e9ca9"//req.params.id;
       const professor = await ProfessorModel.findById(id);
       if (!professor) {
         res.status(404).json({ msg: "Não achei o professor que você procura" });
         return;
       };
-      res.json({ professor, msg: "Achei o que vc queria!" });
+      res.json({ professor });
     } catch (error) {
       console.log(`Xiiii... Tem certeza (esse aqui): ${error}`)
     };

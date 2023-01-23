@@ -16,7 +16,7 @@ const professorSchema = new Schema({
   // turma de atuação
   nm_turma: {
     type: String,
-    required: true
+    required: false
   },
   // tempos de aula ???
   periodo: {

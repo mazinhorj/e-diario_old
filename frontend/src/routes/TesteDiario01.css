@@ -1,0 +1,84 @@
+#meses,
+#frequencia,
+#gestao {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+#frequencia_mes {
+  padding-top: 1rem;
+  margin: 2rem auto;
+  overflow-x: scroll;
+}
+
+
+#meses table,
+#frequencia table,
+#frequencia_mes table,
+#gestao table,
+th,
+tr,
+td {
+  text-align: center;
+  border: 1px solid black;
+  padding: .4rem;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+#meses table tr:nth-child(odd),
+#frequencia table tr:nth-child(odd),
+#frequencia_mes table tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+#meses tbody>tr {
+  opacity: .8;
+  cursor: pointer;
+}
+
+#meses tbody>tr:hover {
+  opacity: 1;
+}
+
+
+table {
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.diasLetivos {
+  text-align: right;
+}
+
+.conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#mes_semana_01 {
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+#btns {
+  margin: 1rem;
+}
+
+fieldset {
+  border-radius: 4px;
+  padding: .2rem;
+}
+
+legend {
+  text-align: left;
+  padding: 0 .4rem;
+}
